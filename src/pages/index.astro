@@ -1,0 +1,48 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="The Artisanal Collective: Handmade with Love" description="A community for sharing and discovering unique, handmade crafts and artisanal goods from independent creators around the world.">
+  <section class="py-12 md:py-20 text-center">
+    <div class="container mx-auto px-4">
+      <h1 class="text-4xl md:text-6xl font-bold mb-6 text-rustic-brown dark:text-white">Discover Unique Handmade Treasures</h1>
+      <p class="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
+        Welcome to The Artisanal Collective, a curated marketplace connecting you with independent artists and craftspeople from around the globe. Explore our collection of unique, ethically sourced, and high-quality handmade items, each crafted with love and passion.
+      </p>
+      <img src="https://placehold.co/1200x600.png" alt="Handmade pottery display" class="rounded-lg shadow-xl mx-auto mb-12" data-ai-hint="handmade pottery, artisan crafts" />
+
+      <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+        <a href="/products/" class="bg-rustic-brown text-white py-3 px-8 rounded-full hover:bg-earthy-green transition-colors duration-300 font-semibold shadow-md">Explore the Collection</a>
+        <a href="/artists/" class="text-rustic-brown dark:text-white hover:underline transition-colors duration-300 font-medium">Meet the Artists</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-12 md:py-16 bg-light-beige dark:bg-slate-800">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-8 text-rustic-brown dark:text-white">Featured Creations</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="rounded-lg shadow-md overflow-hidden">
+          <img src="https://placehold.co/400x300.png" alt="Hand-knitted scarf" class="w-full h-48 object-cover" data-ai-hint="knitted scarf"/>
+          <div class="p-4">
+            <h3 class="text-xl font-semibold text-slate-800 dark:text-slate-200 mb-2">Hand-Knitted Scarf</h3>
+            <p class="text-slate-600 dark:text-slate-300">Cozy and warm, perfect for winter.</p>
+          </div>
+        </div>
+        <div class="rounded-lg shadow-md overflow-hidden">
+          <img src="https://placehold.co/400x300.png" alt="Handmade wooden bowl" class="w-full h-48 object-cover" data-ai-hint="wooden bowl"/>
+          <div class="p-4">
+            <h3 class="text-xl font-semibold text-slate-800 dark:text-slate-200 mb-2">Handmade Wooden Bowl</h3>
+            <p class="text-slate-600 dark:text-slate-300">A beautiful addition to any kitchen.</p>
+          </div>
+        </div>
+        <div class="rounded-lg shadow-md overflow-hidden">
+          <img src="https://placehold.co/400x300.png" alt="Hand-poured candle" class="w-full h-48 object-cover" data-ai-hint="candle"/>
+          <div class="p-4">
+            <h3 class="text-xl font-semibold text-slate-800 dark:text-slate-200 mb-2">Hand-Poured Candle</h3>
+            <p class="text-slate-600 dark:text-slate-300">Scented with natural essential oils.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
